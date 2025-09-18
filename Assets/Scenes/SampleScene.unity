@@ -641,6 +641,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bbf653a7ec6d07646877d3b1f37d0463, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  destroyedVFX: {fileID: 5935239652006614161, guid: 323f6fa87029f68458903c03d5124930, type: 3}
 --- !u!1 &856750588
 GameObject:
   m_ObjectHideFlags: 0
