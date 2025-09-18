@@ -1289,7 +1289,7 @@ MeshRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612883175}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -1437,7 +1437,7 @@ MonoBehaviour:
   - {fileID: 2054236683}
   crosshair: {fileID: 1041052040}
   targetPoint: {fileID: 1612883176}
-  targetDistance: 100
+  targetDistance: 250
 --- !u!1 &1903483718
 GameObject:
   m_ObjectHideFlags: 0
