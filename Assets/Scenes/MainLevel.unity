@@ -940,6 +940,18 @@ PrefabInstance:
       propertyPath: crosshair
       value: 
       objectReference: {fileID: 1041052040}
+    - target: {fileID: 8205769659822827297, guid: e4f064ec2ee892741bfe8bbbcf6c5332, type: 3}
+      propertyPath: xClampRange
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205769659822827297, guid: e4f064ec2ee892741bfe8bbbcf6c5332, type: 3}
+      propertyPath: yClampRange
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 8205769659822827297, guid: e4f064ec2ee892741bfe8bbbcf6c5332, type: 3}
+      propertyPath: controlSpeed
+      value: 30
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
