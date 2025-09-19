@@ -74,7 +74,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6462995786454696733, guid: 99507d47654232a4d9dcfaf52e7e4743, type: 3}
       propertyPath: m_Name
-      value: Enemy 2
+      value: Medium ship
+      objectReference: {fileID: 0}
+    - target: {fileID: 7341482658453336682, guid: 99507d47654232a4d9dcfaf52e7e4743, type: 3}
+      propertyPath: hitPoints
+      value: 5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
