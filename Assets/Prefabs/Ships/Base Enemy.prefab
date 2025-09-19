@@ -95,8 +95,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 623621074622305804}
-  - component: {fileID: 4858963528043244798}
   - component: {fileID: 7341482658453336682}
+  - component: {fileID: 4858963528043244798}
   - component: {fileID: 5868288542111912794}
   m_Layer: 0
   m_Name: Base Enemy
@@ -121,6 +121,20 @@ Transform:
   - {fileID: 7452342638207487986}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7341482658453336682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6462995786454696733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf653a7ec6d07646877d3b1f37d0463, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destroyedVFX: {fileID: 3255086688330784682, guid: 5bff1faad558d9e4da3c13237ffca944, type: 3}
+  hitPoints: 3
 --- !u!65 &4858963528043244798
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -142,19 +156,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 14.9, y: 8.09, z: 35.83}
   m_Center: {x: 0, y: 0.03, z: -0.05}
---- !u!114 &7341482658453336682
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6462995786454696733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bbf653a7ec6d07646877d3b1f37d0463, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  destroyedVFX: {fileID: 3255086688330784682, guid: 5bff1faad558d9e4da3c13237ffca944, type: 3}
 --- !u!95 &5868288542111912794
 Animator:
   serializedVersion: 7
